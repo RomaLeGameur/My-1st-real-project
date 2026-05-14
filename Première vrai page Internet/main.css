@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Dancing+Script:wght@400..700&family=Dynalight&family=Imperial+Script&family=Playwrite+DE+SAS:wght@100..400&family=Playwrite+US+Modern:wght@100..400&family=Shadows+Into+Light&display=swap');
+
+body {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Playwrite US Modern", cursive;
+}
+
+.alert {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Playwrite DE SAS", cursive;
+}
+
+.background_color {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fonts button {
+    font-family: 'Dancing Script', cursive;
+    font-size: 13px;
+    padding-top: 5px ;
+    padding-bottom: 5px ;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-color: black;
+    border-radius: 5px;
+    background-color: #707070;
+    color: white;
+    cursor: pointer;
+}
+
+.fonts button:hover {
+    background-color: #505050;
+}
